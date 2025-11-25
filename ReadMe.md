@@ -2,6 +2,26 @@ Time Line Generator
 
 It is package to allow track the changes of selected repositories with use of git changes made by the user. TLG reads what is done in the selected repositories and based on changes, updates, insertions, deletetions generates summary of the work done during the day and then uploads it to the server which then saves it in the DataBase.
 
+## 🚀 Quick Start
+
+This project is now set up as a Next.js application! To get started:
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000).
+
 ## 📚 Documentation
 
 Comprehensive documentation has been created for this project:
@@ -30,12 +50,13 @@ ToDo
 
 **Phase 1: Planning & Decisions**
 - [x] Find good name for this package. Time Line Generator
-- [ ] Think what stack need to be used.
+- [x] Think what stack need to be used. (Next.js with TypeScript and Tailwind CSS)
 - [ ] Decide if the chatGPT API will be used to generate the articles or if locally run LLM will be used.
 - [ ] Decide which approach will be used to run the app. Not sure if it will be run locally or it will be run on GitHub actions.
 
 **Phase 2: Project Setup**
 - [x] Create separate project which will be independent repository.
+- [x] Initialize Next.js project with TypeScript and Tailwind CSS.
 
 **Phase 3: Data Structure Design**
 - [ ] Create article object structure with all keys which will be used to generate the articles.
