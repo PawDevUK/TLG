@@ -36,6 +36,8 @@ ${commits.map((c) => `- ${c.message} (${c.date.toLocaleString()})`).join('\n')}
 	return summary;
 };
 
-console.log(getGitChanges('https://github.com/PawDevUK/Portfolio-react.git', '24/11/25', 'null'));
+// Example usage (commented out):
+// console.log(getGitChanges(['https://github.com/PawDevUK/Portfolio-react.git'], '24/11/25', 'null'));
 
-export { GitCommit, RepoConfig, getGitHubCommits, parseGitHubUrl };
+export { getGitHubCommits, parseGitHubUrl } from './API/githubFetcher';
+export type { GitCommit, RepoConfig } from './API/githubFetcher';

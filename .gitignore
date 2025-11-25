@@ -22,6 +22,10 @@ dist/
 build/
 generated/
 
+# Next.js
+.next/
+out/
+
 # Testing
 coverage/
 .nyc_output/
@@ -45,6 +49,7 @@ temp/
 
 # TypeScript
 *.tsbuildinfo
+next-env.d.ts
 
 # Optional npm cache directory
 .npm
