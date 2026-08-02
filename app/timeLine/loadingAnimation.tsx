@@ -4,7 +4,7 @@ export default function LoadingAnimation() {
 	const items: React.ReactElement[] = [];
 	const article = () => {
 		return (
-			<div className='flex animate-pulse space-x-4 w-160 m-auto'>
+			<div className='flex animate-pulse space-x-4 w-[90%] m-auto'>
 				<div className='flex-1 space-y-6 py-1'>
 					<div className='h-4 rounded bg-gray-200'></div>
 					<div className='space-y-3'>
