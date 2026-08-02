@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Header from '@/app/components/common/Header';
 import PageBaseLayout from '@/app/components/PageBaseLayout';
+import LoadingAnimation from './loadingAnimation';
 
 type Article = {
 	_id?: string;
@@ -70,25 +71,29 @@ const TimelineList = () => {
 						style={{ WebkitOverflowScrolling: 'touch' }}>
 						<div className='relative'>
 							{/* Timeline vertical line */}
-							<div className='absolute left-2 top-0 h-full w-0.5 bg-gray-300' />
-							{articles.map((article, articleIndex) => (
-								<div key={article._id || articleIndex} className={`relative pl-6 sm:pl-12 pr-2 sm:pr-6 ${articleIndex !== articles.length - 1 ? 'mb-8' : ''}`}>
-									{/* Marker */}
-									<span className='absolute left-[3px] top-3 w-3 h-3 rounded-full border-2 border-gray-50 bg-blue-500' style={{ zIndex: 1 }} />
-									{/* Date Header */}
-									<Header>{article.title}</Header>
-									{session && session?.user.isOwner && (
-										<button
-											onClick={() => article._id && handleDelete(article._id)}
-											className='ml-4 text-white bg-red-500 hover:bg-red-600 px-2 py-1 rounded text-sm transition-colors'>
-											Delete
-										</button>
-									)}
-									<div className='text-sm text-gray-500 mb-2 font-bold'>{article.date}</div>
-									{/* Description */}
-									<p className='text-gray-700 text-sm'>{article.description}</p>
-								</div>
-							))}
+							{articles.length > 0 ? <div className='absolute left-2 top-0 h-full w-0.5 bg-gray-300' /> : ''}
+							{articles.length > 0 ? (
+								articles.map((article, articleIndex) => (
+									<div key={article._id || articleIndex} className={`relative pl-6 sm:pl-12 pr-2 sm:pr-6 ${articleIndex !== articles.length - 1 ? 'mb-8' : ''}`}>
+										{/* Marker */}
+										<span className='absolute left-[3px] top-3 w-3 h-3 rounded-full border-2 border-gray-50 bg-blue-500' style={{ zIndex: 1 }} />
+										{/* Date Header */}
+										<Header>{article.title}</Header>
+										{session && session?.user.isOwner && (
+											<button
+												onClick={() => article._id && handleDelete(article._id)}
+												className='ml-4 text-white bg-red-500 hovere:bg-red-600 px-2 py-1 rounded text-sm transition-colors'>
+												Delete
+											</button>
+										)}
+										<div className='text-sm text-gray-500 mb-2 font-bold'>{article.date}</div>
+										{/* Description */}
+										<p className='text-gray-700 text-sm'>{article.description}</p>
+									</div>
+								))
+							) : (
+								<LoadingAnimation></LoadingAnimation>
+							)}
 						</div>
 					</div>
 				</div>
