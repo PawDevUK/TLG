@@ -1,7 +1,7 @@
 export const defaultRepositories = [
 	{
 		owner: {
-			login: 'pawdevUK',
+			login: 'pavdevUK',
 			id: 0,
 		},
 		TLG: {
@@ -61,7 +61,7 @@ export const defaultRepositories = [
 	},
 	{
 		owner: {
-			login: 'pawdevUK',
+			login: 'pavdevUK',
 			id: 0,
 		},
 		TLG: {
@@ -1247,7 +1247,7 @@ export const defaultRepositories = [
 					title: 'Portfolio-React - Updates',
 					date: '13/02/2026',
 					description:
-						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PawDevUK and are aimed at improving the visual representation and user experience of the Portfolio-React project. The impact of these updates is a more cohesive and user-friendly interface for visitors to the site.',
+						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PavDevUK and are aimed at improving the visual representation and user experience of the Portfolio-React project. The impact of these updates is a more cohesive and user-friendly interface for visitors to the site.',
 					createdAt: '2026-02-14T21:32:53.982Z',
 					_id: '6990ea07403971fca9e74775',
 				},
@@ -1263,7 +1263,7 @@ export const defaultRepositories = [
 					title: 'Portfolio-React - Updates',
 					date: '13/02/2026',
 					description:
-						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PawDevUK and are aimed at improving the visual representation and user experience of the Portfolio-React project. The impact of these changes is a more cohesive and user-friendly design for visitors to the site.',
+						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PavDevUK and are aimed at improving the visual representation and user experience of the Portfolio-React project. The impact of these changes is a more cohesive and user-friendly design for visitors to the site.',
 					createdAt: '2026-02-14T21:36:45.190Z',
 					_id: '6990eaed403971fca9e7494a',
 				},
@@ -1271,7 +1271,7 @@ export const defaultRepositories = [
 					title: 'Portfolio-React - Updates',
 					date: '13/02/2026',
 					description:
-						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PawDevUK and are aimed at enhancing the visual appeal and functionality of the Portfolio-React project. The impact of these updates is a more visually appealing timeline generator card and improved navigation for users accessing the Timeline Generator project from the main site.',
+						'The image for the timeline generator card in the Portfolio-React project was replaced in this commit. Additionally, the webHref for the Timeline Generator project was updated to point to the main site. These changes were made by PavDevUK and are aimed at enhancing the visual appeal and functionality of the Portfolio-React project. The impact of these updates is a more visually appealing timeline generator card and improved navigation for users accessing the Timeline Generator project from the main site.',
 					createdAt: '2026-02-14T21:38:00.134Z',
 					_id: '6990eb38403971fca9e74b28',
 				},
@@ -1377,7 +1377,7 @@ export const defaultRepositories = [
 	},
 	{
 		owner: {
-			login: 'PawDevUK',
+			login: 'PavDevUK',
 			id: 0,
 		},
 		TLG: {
@@ -1624,10 +1624,10 @@ export const defaultRepositories = [
 		id: 0,
 		node_id: '',
 		name: 'TLG',
-		full_name: 'PawDevUK/TLG',
+		full_name: 'PavDevUK/TLG',
 		private: false,
-		html_url: 'https://github.com/PawDevUK/TLG',
-		url: 'https://api.github.com/repos/PawDevUK/TLG',
+		html_url: 'https://github.com/PavDevUK/TLG',
+		url: 'https://api.github.com/repos/PavDevUK/TLG',
 		created_at: '2026-02-19T19:38:31.366Z',
 		updated_at: '2026-02-19T19:38:31.366Z',
 		pushed_at: '2026-02-19T19:38:31.366Z',
@@ -1637,7 +1637,7 @@ export const defaultRepositories = [
 	},
 	{
 		owner: {
-			login: 'PawDevUK',
+			login: 'PavDevUK',
 			id: 0,
 		},
 		TLG: {
@@ -1861,10 +1861,10 @@ export const defaultRepositories = [
 		id: 0,
 		node_id: '',
 		name: 'Profit-radar',
-		full_name: 'PawDevUK/Profit-radar',
+		full_name: 'PavDevUK/Profit-radar',
 		private: false,
-		html_url: 'https://github.com/PawDevUK/Profit-radar',
-		url: 'https://api.github.com/repos/PawDevUK/Profit-radar',
+		html_url: 'https://github.com/PavDevUK/Profit-radar',
+		url: 'https://api.github.com/repos/PavDevUK/Profit-radar',
 		created_at: '2026-02-19T19:40:34.953Z',
 		updated_at: '2026-02-19T19:40:34.953Z',
 		pushed_at: '2026-02-19T19:40:34.953Z',
@@ -1874,7 +1874,7 @@ export const defaultRepositories = [
 	},
 	{
 		owner: {
-			login: 'PawDevUK',
+			login: 'PavDevUK',
 			id: 0,
 		},
 		TLG: {
@@ -2225,10 +2225,10 @@ export const defaultRepositories = [
 		id: 0,
 		node_id: '',
 		name: 'filesconverto',
-		full_name: 'PawDevUK/filesconverto',
+		full_name: 'PavDevUK/filesconverto',
 		private: false,
-		html_url: 'https://github.com/PawDevUK/filesconverto',
-		url: 'https://api.github.com/repos/PawDevUK/filesconverto',
+		html_url: 'https://github.com/PavDevUK/filesconverto',
+		url: 'https://api.github.com/repos/PavDevUK/filesconverto',
 		created_at: '2026-02-19T19:43:29.321Z',
 		updated_at: '2026-02-19T19:43:29.321Z',
 		pushed_at: '2026-02-19T19:43:29.321Z',

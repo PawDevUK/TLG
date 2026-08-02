@@ -17,7 +17,7 @@ export default function SearchRepository({ onSearch, loading, error, success }: 
 	};
 
 	useEffect(() => {
-		onSearch('pawdevuk', '');
+		onSearch('pavdevuk', '');
 	}, []);
 
 	return (
@@ -32,7 +32,7 @@ export default function SearchRepository({ onSearch, loading, error, success }: 
 						type='text'
 						value={user}
 						onChange={(e) => setUser(e.target.value)}
-						placeholder='e.g., PawDevUK'
+						placeholder='e.g., PavDevUK'
 						required
 						className='w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
 					/>

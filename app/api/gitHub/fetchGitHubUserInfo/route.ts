@@ -7,7 +7,7 @@ import { NextResponse } from 'next/server';
 // Get selected repositiries commits.
 
 export async function GET() {
-	const user: string = 'https://api.github.com/users/PawDevUK';
+	const user: string = 'https://api.github.com/users/PavDevUK';
 	try {
 		const response = await axios.get(user);
 		return NextResponse.json(response.data);
