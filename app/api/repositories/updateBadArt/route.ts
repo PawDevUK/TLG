@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { GetAllRepositories } from '@/lib/db/repository.db';
 import { dbConnect } from '@/lib/db/db';
 import { callOpenAI } from '@/lib/chatGPT/callOpenAI/callOpenAI';
-import { systemPrompt, getUserPrompt } from './prompts';
+import { systemPrompt, getUserPrompt } from './prompt';
 import { Types } from 'mongoose';
 const baseUrl = process.env.NEXTAUTH_URL || 'http://localhost:3000';
 import { Repository } from '@/lib/db/models/repository.model';
